@@ -1,6 +1,6 @@
 # Value Types
 
-The following types are also called value types because variables of these types will always be passed by value, meaning these values are stored in memory and they are copied from memory while being passed into a function.
+The following types are also called value types because variables of these types will always be passed by value, they are always copied when they are used as function arguments or in assignments.
 
 # Pass By Value
 
