@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: SEE LICENSE IN LICENSE
-pragma solidity 0.8.9;
+pragma solidity 0.8.12;
 
 // Function modifier is a piece of code which is called before function execution. It is used to validate a code before the function is called
 

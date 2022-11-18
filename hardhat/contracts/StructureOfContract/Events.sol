@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: SEE LICENSE IN LICENSE
-pragma solidity 0.8.9;
+pragma solidity 0.8.12;
 
 // Events are convenience interfaces with the EVM logging facilities. These are a piece of code which are emitted when an action is performed on the Ethereum
 
