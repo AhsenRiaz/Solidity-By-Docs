@@ -44,11 +44,16 @@ contract Caller {
         );
         require(success);
 
-        // will resultin x becoming 2
+        // will resultin x becoming 1. notExistentCalls invoke fallback function
         (success, ) = address(testPayable).call{value: 1 ether}(
             abi.encodeWithSignature("nonExistingCall")
         );
         require(success);
+
+        // will resultin x becoming 2. We are not calling any function. Only sending some ether
+        (success, ) = address(testPayable).call{value: 1 ether}("");
+        require(success);
+
         return true;
     }
 }
